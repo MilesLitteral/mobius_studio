@@ -4,9 +4,9 @@ import { Button, Jumbotron, ButtonToolbar, Image } from "react-bootstrap";
 
 class App extends Component {
   render() {
-    const wStyles = { maxWidth: 400, margin: "0 auto 10px", left: "25px" };
-    const wBStyles = { maxWidth: 400, margin: "0 auto 10px", left: "45px" };
-    const wXStyles = { maxWidth: 400, margin: "0 auto 10px", left: "65px" };
+    const wStyles = { maxWidth: 400, margin: "0 auto 10px", left: "145px" };
+    const wBStyles = { maxWidth: 400, margin: "0 auto 10px", left: "345px" };
+    const wXStyles = { maxWidth: 400, margin: "0 auto 10px", left: "545px" };
     const xo = {
       backgroundImage:
         "url(https://uploads.codesandbox.io/uploads/user/bf39a48c-cc3f-4699-9922-99498a6a8538/lrfl-BBG.v1.jpg)",
@@ -50,7 +50,7 @@ class App extends Component {
               glyph="star"
             />
             <Card
-              title=" Info"
+              title=" Info & Features"
               bsStyle="primary"
               bsSize="large"
               wellStyles={wBStyles}
