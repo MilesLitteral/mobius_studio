@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.jumbotron {
+        background: url("../static/images/BBG.jpg") repeat fixed center;
+        padding-bottom: 80px;
+        height: 300px;
+        width: 100%;
+    }
+
+    .jumbotron .btn-primary {
+        background: #845ac7;
+        border-color: #845ac7;
+    }
+    .jumbotron .btn-primary:hover {
+        background: #7646c1;
+    }
+    .toolbox p {
+          color: #000000;
+          max-width: 75%;
+    }
+    
+    .jumbotron p {
+        color: #000000;
+        max-width: 75%;
+        margin: 1em auto 2em;
+    }
+    .navbar+.jumbotron {
+        margin-top: -20px;
+    }
+    .jumbotron .lang-logo {
+        display: block;
+        background: #000000;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        border: 2px solid white
+    }
+    .jumbotron .lang-logo img {
+        max-width: 100%;
+         margin: 1em auto 6em;
+    }
+    .toolbg div {
+          background: lightblue url("../static/images/BBG.jpg") no-repeat fixed center;
+          width: 1400px;
+          height: 3000px;
+          object-fit: cover;
+          
+      }
+      h5 {
+        color: #000000;
+      }
+      nav a{
+          transition: 0.2s ease;
+      }
+
+      nav:hover a {
+          opacity: 0.3;
+      }
+
+      nav a:hover{
+          opacity: 1;
+      }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
