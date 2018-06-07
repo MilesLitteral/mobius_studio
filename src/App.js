@@ -47,6 +47,10 @@ class App extends Component {
               bsStyle="primary"
               bsSize="large"
               wellStyles={wStyles}
+              ActionA="Search by Album"
+              ActionB="Search by Artist"
+              ActionC="Search by Agent"
+              ActionD="Advanced Search"
               glyph="star"
             />
             <Card
@@ -54,6 +58,10 @@ class App extends Component {
               bsStyle="primary"
               bsSize="large"
               wellStyles={wBStyles}
+              ActionA="Mission Statement"
+              ActionB="Business Model"
+              ActionC="Goals & Milestones"
+              ActionD="Services"
               glyph="cog"
             />
             <Card
@@ -61,6 +69,10 @@ class App extends Component {
               bsStyle="primary"
               bsSize="large"
               wellStyles={wXStyles}
+              ActionA="User Login"
+              ActionB="Artist Login"
+              ActionC="Industry Agent Login"
+              ActionD="Help Center"
               glyph="user"
             />
             <div className="navbar-right">
