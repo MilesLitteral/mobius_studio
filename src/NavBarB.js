@@ -15,9 +15,10 @@ class NavBarB extends Component {
   }
 
   render() {
-    const wStyles = { maxWidth: 400, margin: "0 auto 10px", left: "145px" };
-    const wBStyles = { maxWidth: 400, margin: "0 auto 10px", left: "345px" };
-    const wXStyles = { maxWidth: 400, margin: "0 auto 10px", left: "545px" };
+    const wrStyles = { maxWidth: 400, margin: "3 auto 15px", left: "20px", top: "10px" };
+    const wStyles = { maxWidth: 400, margin: "3 auto 15px", left: "145px", top: "10px" };
+    const wBStyles = { maxWidth: 400, margin: "3 auto 15px", left: "345px", top: "10px" };
+    const wXStyles = { maxWidth: 400, margin: "3 auto 15px", left: "545px", top: "10px" };
     const gin = { width: "87%", height: "65px", left: "0px" };
 
     return (
@@ -28,6 +29,7 @@ class NavBarB extends Component {
               className="glyphicon glyphicon-home"
               bsSize="large"
               bsStyle="primary"
+              style={wrStyles}
             >
               {" "}
               HOME{" "}
