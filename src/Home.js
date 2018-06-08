@@ -1,28 +1,57 @@
 import React, {Component} from "react";
-import { Button, Jumbotron} from "react-bootstrap";
+import { Button, Jumbotron, Image} from "react-bootstrap";
 
 const xo = {
   backgroundImage:
   "url(https://uploads.codesandbox.io/uploads/user/bf39a48c-cc3f-4699-9922-99498a6a8538/lrfl-BBG.v1.jpg)",
-  width: "200%"
+  width: "200%",
+  height: "375px"
 };
 
+
 const sr = { left: "1000px" };
+
+const parse = {
+    position: "relative",
+    left: "500px",
+    top: "0px"
+  };
+
+const parseD = {
+  position: "relative",
+  left: "570px",
+  top: "0px"
+};
+
+
+const parseB = {
+  position: "relative",
+  left: "250px",
+  top: "15px",
+};
+
+const imgg = {
+  position: "relative",
+  left: "690px",
+  top: "-20px",
+  width: "200px"
+  
+};
 
  const home = () => (
     <div>
   <title>Mobius on Heroku</title>
   <Jumbotron style={xo}>
-    <h1>Welcome to Mobius!</h1>
-    <p>
+       <Image className="border border-danger" style={imgg} src={"https://uploads.codesandbox.io/uploads/user/bf39a48c-cc3f-4699-9922-99498a6a8538/F2EE-9TLt-Mob.png"} circle></Image>
+       <h1 style={parse}>Welcome to Mobius!</h1>
+    <p style={parseD}>
       A Digital Community for Artists and Industry folks
     </p>
-    <p>
-      <Button bsStyle="primary">Learn more</Button>
+    <p style={parse}>
+      <Button style={parseB}bsStyle="primary">Learn more</Button>
     </p>
-  </Jumbotron>;
+  </Jumbotron>
 <p>
-  {" "}
   Determined to make the first mass-distribution record in full 4D as
           well as to do the first transition from analogue recording to 4D
           mixing and processing. But What IS this "spatial sound" you speak of?
